@@ -36,6 +36,7 @@ _vestRegFTLSemiArid = "rhsusf_iotv_ocp_Teamleader";
 _vestRegARSemiArid = "rhsusf_iotv_ocp_SAW";
 _vestRegSemiArid = "rhsusf_iotv_ocp_Rifleman";
 _vestRegMedicSemiArid = "rhsusf_iotv_ocp_Medic";
+_vestLightSemiArid = "rhsusf_mbav_light";
 
 // Vests German
 _vestRegSQLGERSemiArid = "pbw_splitter_grpfhr";
@@ -65,7 +66,6 @@ _vestPilotSemiArid = "rhsusf_spcs_ocp";
 // Vests Pilot&Crews German
 _vestCrewGERSemiArid = "pbw_splitter_zivil";
 _vestPilotGERSemiArid = "pbw_splitter_zivil";
-
 
 // Uniforms
 _uniformRegSemiArid = "rhs_uniform_cu_ocp";
@@ -559,21 +559,21 @@ switch (_typeofUnit) do
 		_unit addUniform _uniformPilotGerSemiArid;
 	};
 
-
 		// LOADOUT: AA Heavy Gunner
 	case "heavyaagunner":
 	{
 		_unit addBackpack _BackpackSFATSemiArid;
 		_unit addHeadgear _helmetRegSemiArid;
-		_unit addVest _vestRegSemiArid;
+		_unit addVest _vestLightSemiArid;
 		_unit addUniform _uniformRegSemiArid;
 	};
+	
 	// LOADOUT: AA Heavy SPOTTER
 	case "heavyaaspotter":
 	{
 		_unit addBackpack _BackpackSFATSemiArid;
 		_unit addHeadgear _helmetRegSemiArid;
-		_unit addVest _vestRegSemiArid;
+		_unit addVest _vestLightSemiArid;
 		_unit addUniform _uniformRegSemiArid;
 	};
 
@@ -582,7 +582,7 @@ switch (_typeofUnit) do
 	{
 		_unit addBackpack _BackpackSFATSemiArid;
 		_unit addHeadgear _helmetRegSemiArid;
-		_unit addVest _vestRegSemiArid;
+		_unit addVest _vestLightSemiArid;
 		_unit addUniform _uniformRegSemiArid;
 	};
 	// LOADOUT: AT Heavy SPOTTER
@@ -590,7 +590,7 @@ switch (_typeofUnit) do
 	{
 		_unit addBackpack _BackpackSFATSemiArid;
 		_unit addHeadgear _helmetRegSemiArid;
-		_unit addVest _vestRegSemiArid;
+		_unit addVest _vestLightSemiArid;
 		_unit addUniform _uniformRegSemiArid;
 	};
 			// LOADOUT: AT Medium Gunner

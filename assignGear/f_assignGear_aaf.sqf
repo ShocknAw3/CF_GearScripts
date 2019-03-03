@@ -25,6 +25,7 @@ _ballisticscomputer = "ACE_ATragMX";
 _rangecard = "ACE_RangeCard";
 _microDAGR = "ACE_microDAGR";
 _wirecutter = "ACE_wirecutter";
+_mapflashlight = "ACE_Flashlight_XL50";
 
 // ====================================================================================
 
@@ -61,10 +62,10 @@ _smgDM = "hlc_rifle_aks74u";
 _magazineSMG = "hlc_30Rnd_545x39_B_AK";
 
 // Smoke for FTLs, Squad Leaders, etc
-_glhe = "rhs_VOG25";
-_glsmokewhite = "rhs_GRD40_White";
-_glsmokegreen = "rhs_GRD40_Green";
-_glsmokered = "rhs_GRD40_Red";
+// _glhe = "rhs_VOG25";
+// _glsmokewhite = "rhs_GRD40_White";
+// _glsmokegreen = "rhs_GRD40_Green";
+// _glsmokered = "rhs_GRD40_Red";
 
 // Pistols
 _pistol = "rhs_weap_makarov_pm";
@@ -230,6 +231,7 @@ switch (_typeofUnit) do
 		_unit additem _morphine;
 		_unit additem _epinephrine;
 		_unit addItemToBackpack _tourniquet;
+		_unit additem _mapflashlight;
 		
 		_unit additem _maptools;
 		
@@ -242,20 +244,8 @@ switch (_typeofUnit) do
 		_unit addmagazines [_smokegrenadegreen,2];
 		_unit addmagazines [_smokegrenadered,2];
 	
-		_unit addmagazines [_glhe,8];
-		
 		#include "f_randomRifleGL.sqf";
-		
-		for "_i" from 0 to 3 step 1 do {
-			_unit addItemToBackpack _glsmokewhite;
-			};
-		for "_i" from 0 to 2 step 1 do {
-			_unit addItemToBackpack _glsmokered;
-			};
-		for "_i" from 0 to 2 step 1 do {
-			_unit addItemToBackpack _glsmokegreen;
-			};
-		
+			
 		_unit addweapon "Binocular";
 		
 		_unit addItemToVest _leadradio;
@@ -274,11 +264,10 @@ switch (_typeofUnit) do
 		_unit additem _morphine;
 		_unit additem _epinephrine;
 		_unit additem _tourniquet;
+ 	 	_unit additem _mapflashlight;
 		
 		_unit addmagazines [_grenade,2];
 		_unit addmagazines [_smokegrenade,4];
-		
-		#include "f_randomRifle.sqf";
 		
 		for "_i" from 0 to 10 step 1 do {
 			_unit addItemToBackpack _bandage;
@@ -310,7 +299,9 @@ switch (_typeofUnit) do
 		
 		for "_i" from 0 to 1 step 1 do {
 			_unit addItemToBackpack _PAK;
-			};
+			};	
+			
+		#include "f_randomRifle.sqf";
 			
 		_unit removeitem _shortrangeradio; // DON'T REMOVE THIS LINE IN ANY OF THE UNITS, OTHERWISE THEY'LL GET TWO 343'S
 	};
@@ -326,6 +317,7 @@ switch (_typeofUnit) do
 		_unit additem _morphine;
 		_unit additem _epinephrine;
 		_unit additem _tourniquet;
+ 	 	_unit additem _mapflashlight;
 		
 		_unit additem _maptools;
 		
@@ -334,19 +326,11 @@ switch (_typeofUnit) do
 		_unit addmagazines [_smokegrenadegreen,2];
 		_unit addmagazines [_smokegrenadered,2];
 		
-		for "_i" from 0 to 3 step 1 do {
-			_unit addItemToBackpack _glsmokewhite;
-			};
-		for "_i" from 0 to 2 step 1 do {
-			_unit addItemToBackpack _glsmokered;
-			};
-		for "_i" from 0 to 2 step 1 do {
-			_unit addItemToBackpack _glsmokegreen;
-			};
-		
-		_unit addmagazines [_glhe,4];
-
 		#include "f_randomRifleGL.sqf";
+		
+		for "_i" from 0 to 3 step 1 do {
+			_unit removeitem _glhe;
+			};
 		
 		_unit addweapon "Binocular";
 		
@@ -366,6 +350,7 @@ switch (_typeofUnit) do
 		_unit additem _morphine;
 		_unit additem _epinephrine;
 		_unit additem _tourniquet;
+ 	 	_unit additem _mapflashlight;
 		
 		_unit additem _maptools;
 		_unit additem _rangecard;
@@ -397,6 +382,7 @@ switch (_typeofUnit) do
 		_unit additem _morphine;
 		_unit additem _epinephrine;
 		_unit additem _tourniquet;
+ 	 	_unit additem _mapflashlight;
 		
 		_unit additem _maptools;
 	
@@ -405,8 +391,6 @@ switch (_typeofUnit) do
 		_unit addmagazines [_smokegrenadegreen,2];
 		_unit addmagazines [_smokegrenadered,2];
 	
-		_unit addmagazines [_glhe,8];
-		
 		#include "f_randomRifleGL.sqf";
 		
 		for "_i" from 0 to 1 step 1 do {
@@ -435,6 +419,7 @@ switch (_typeofUnit) do
 		_unit additem _morphine;
 		_unit additem _epinephrine;
 		_unit additem _tourniquet;
+ 	 	_unit additem _mapflashlight;
 		
 		_unit addmagazines [_grenade,2];
 		_unit addmagazines [_smokegrenade,2];
@@ -457,6 +442,7 @@ switch (_typeofUnit) do
 		_unit additem _morphine;
 		_unit additem _epinephrine;
 		_unit additem _tourniquet;
+ 	 	_unit additem _mapflashlight;
 
 		_unit addmagazines [_grenade,2];
 		_unit addmagazines [_smokegrenade,2];
@@ -481,6 +467,7 @@ switch (_typeofUnit) do
 		_unit additem _morphine;
 		_unit additem _epinephrine;
 		_unit additem _tourniquet;
+ 	 	_unit additem _mapflashlight;
 		
 		_unit addmagazines [_grenade,2];
 		_unit addmagazines [_smokegrenade,2];
@@ -507,6 +494,7 @@ switch (_typeofUnit) do
 		_unit additem _morphine;
 		_unit additem _epinephrine;
 		_unit additem _tourniquet;
+ 	 	_unit additem _mapflashlight;
 		
 		_unit additem _cabletie;
 		_unit additem _maptools;
@@ -516,15 +504,6 @@ switch (_typeofUnit) do
 		_unit addmagazines [_grenade,2];
 		_unit addmagazines [_smokegrenade,2];
 	
-		for "_i" from 0 to 7 step 1 do {
-			_unit addItemToBackpack _glhe;
-			};
-		for "_i" from 0 to 1 step 1 do {
-			_unit addItemToBackpack _glsmokewhite;
-			};
-		_unit addItemToBackpack _glsmokered;
-		_unit addItemToBackpack _glsmokegreen;
-
 		#include "f_randomRifleGL.sqf";
 		
 		_unit addweapon _pistol;
@@ -550,6 +529,7 @@ switch (_typeofUnit) do
 		_unit additem _morphine;
 		_unit additem _epinephrine;
 		_unit additem _tourniquet;
+ 	 	_unit additem _mapflashlight;
 		
 		_unit additem _cabletie;
 		_unit additem _maptools;
@@ -582,6 +562,7 @@ switch (_typeofUnit) do
 		_unit additem _morphine;
 		_unit additem _epinephrine;
 		_unit additem _tourniquet;
+ 	 	_unit additem _mapflashlight;
 		
 		_unit additem _cabletie;
 		_unit additem _maptools;
@@ -591,19 +572,11 @@ switch (_typeofUnit) do
 		_unit addmagazines [_grenade,2];
 		_unit addmagazines [_smokegrenade,2];
 		
-		_unit addmagazines [_glhe,4];
+		#include "f_randomRifleGL.sqf";
 		
 		for "_i" from 0 to 3 step 1 do {
-			_unit addItemToBackpack _glsmokewhite;
+			_unit removeitem _glhe;
 			};
-		for "_i" from 0 to 2 step 1 do {
-			_unit addItemToBackpack _glsmokered;
-			};
-		for "_i" from 0 to 2 step 1 do {
-			_unit addItemToBackpack _glsmokegreen;
-			};
-		
-		#include "f_randomRifleGL.sqf";
 		
 		_unit addweapon _pistol;
 		
@@ -628,6 +601,7 @@ switch (_typeofUnit) do
 		_unit additem _morphine;
 		_unit additem _epinephrine;
 		_unit additem _tourniquet;
+ 	 	_unit additem _mapflashlight;
 		
 		_unit additem _cabletie;
 		_unit additem _maptools;
@@ -664,6 +638,7 @@ switch (_typeofUnit) do
 		_unit additem _morphine;
 		_unit additem _epinephrine;
 		_unit additem _tourniquet;
+ 	 	_unit additem _mapflashlight;
 		
 		_unit additem _cabletie;
 		_unit additem _maptools;
@@ -705,6 +680,7 @@ switch (_typeofUnit) do
 		_unit additem _morphine;
 		_unit additem _epinephrine;
 		_unit additem _tourniquet;
+ 	 	_unit additem _mapflashlight;
 		
 		_unit additem _cabletie;
 		_unit additem _maptools;
@@ -745,14 +721,13 @@ switch (_typeofUnit) do
 		_unit additem _morphine;
 		_unit additem _epinephrine;
 		_unit additem _tourniquet;
+ 	 	_unit additem _mapflashlight;
 		
 		_unit additem _cabletie;
 		_unit additem _maptools;
 
 		_unit addmagazines [_grenade,2];
 		_unit addmagazines [_smokegrenade,4];
-		
-		#include "f_randomRifle.sqf";
 		
 		_unit removeitem _magazine;
 
@@ -790,6 +765,8 @@ switch (_typeofUnit) do
 			_unit addItemToBackpack _PAK;
 			};
 			
+		#include "f_randomRifle.sqf";
+			
 		_unit removeitem _shortrangeradio; // DON'T REMOVE THIS LINE IN ANY OF THE UNITS, OTHERWISE THEY'LL GET TWO 343'S
 	};
 	
@@ -807,6 +784,7 @@ switch (_typeofUnit) do
 		_unit additem _morphine;
 		_unit additem _epinephrine;
 		_unit additem _tourniquet;
+ 	 	_unit additem _mapflashlight;
 		
 		_unit additem _maptools;
 		
@@ -843,6 +821,7 @@ switch (_typeofUnit) do
 		_unit additem _morphine;
 		_unit additem _epinephrine;
 		_unit additem _tourniquet;
+ 	 	_unit additem _mapflashlight;
 		
 		_unit additem _maptools;
 		
@@ -881,6 +860,7 @@ switch (_typeofUnit) do
 		_unit additem _morphine;
 		_unit additem _epinephrine;
 		_unit additem _tourniquet;
+ 	 	_unit additem _mapflashlight;
 
 		_unit additem _maptools;
 		
@@ -908,6 +888,7 @@ switch (_typeofUnit) do
 		_unit additem _morphine;
 		_unit additem _epinephrine;
 		_unit additem _tourniquet;
+ 	 	_unit additem _mapflashlight;
 
 		_unit additem _maptools;
 		
@@ -942,6 +923,7 @@ switch (_typeofUnit) do
 		_unit additem _morphine;
 		_unit additem _epinephrine;
 		_unit additem _tourniquet;
+ 	 	_unit additem _mapflashlight;
 
 		_unit additem _maptools;
 		
@@ -974,6 +956,7 @@ switch (_typeofUnit) do
 		_unit additem _morphine;
 		_unit additem _epinephrine;
 		_unit additem _tourniquet;
+ 	 	_unit additem _mapflashlight;
 
 		_unit additem _maptools;
 		
@@ -1006,6 +989,7 @@ switch (_typeofUnit) do
 		_unit additem _morphine;
 		_unit additem _epinephrine;
 		_unit additem _tourniquet;
+ 	 	_unit additem _mapflashlight;
 
 		_unit additem _maptools;
 		
@@ -1037,6 +1021,7 @@ switch (_typeofUnit) do
 		_unit additem _morphine;
 		_unit additem _epinephrine;
 		_unit additem _tourniquet;
+ 	 	_unit additem _mapflashlight;
 
 		_unit additem _maptools;
 		
@@ -1064,6 +1049,7 @@ switch (_typeofUnit) do
 		_unit additem _morphine;
 		_unit additem _epinephrine;
 		_unit additem _tourniquet;
+ 	 	_unit additem _mapflashlight;
 
 		_unit additem _maptools;
 		
@@ -1091,6 +1077,7 @@ switch (_typeofUnit) do
 		_unit additem _morphine;
 		_unit additem _epinephrine;
 		_unit additem _tourniquet;
+ 	 	_unit additem _mapflashlight;
 
 		_unit additem _maptools;
 		_unit additem _microDAGR;

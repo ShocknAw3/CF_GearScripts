@@ -33,6 +33,7 @@ _ballisticscomputer = "ACE_ATragMX";
 _rangecard = "ACE_RangeCard";
 _microDAGR = "ACE_microDAGR";
 _wirecutter = "ACE_wirecutter";
+_mapflashlight = "ACE_Flashlight_XL50";
 
 // ====================================================================================
 
@@ -247,6 +248,7 @@ switch (_typeofUnit) do
 		_unit additem _morphine;
 		_unit additem _epinephrine;
 		_unit additem _tourniquet;
+ 	 	_unit additem _mapflashlight;
 		
 		_unit additem _maptools;
 		
@@ -298,6 +300,7 @@ switch (_typeofUnit) do
 		_unit additem _morphine;
 		_unit additem _epinephrine;
 		_unit additem _tourniquet;
+ 	 	_unit additem _mapflashlight;
 		
 		_unit addmagazines [_grenade,2];
 		_unit addmagazines [_smokegrenade,4];
@@ -356,6 +359,7 @@ switch (_typeofUnit) do
 		_unit additem _morphine;
 		_unit additem _epinephrine;
 		_unit additem _tourniquet;
+ 	 	_unit additem _mapflashlight;
 		
 		_unit additem _maptools;
 		
@@ -402,6 +406,7 @@ switch (_typeofUnit) do
 		_unit additem _morphine;
 		_unit additem _epinephrine;
 		_unit additem _tourniquet;
+ 	 	_unit additem _mapflashlight;
 		
 		_unit additem _maptools;
 		_unit additem _rangecard;
@@ -439,6 +444,7 @@ switch (_typeofUnit) do
 		_unit additem _morphine;
 		_unit additem _epinephrine;
 		_unit additem _tourniquet;
+ 	 	_unit additem _mapflashlight;
 		
 		_unit additem _maptools;
 	
@@ -484,6 +490,7 @@ switch (_typeofUnit) do
 		_unit additem _morphine;
 		_unit additem _epinephrine;
 		_unit additem _tourniquet;
+ 	 	_unit additem _mapflashlight;
 		
 		_unit addmagazines [_grenade,2];
 		_unit addmagazines [_smokegrenade,2];
@@ -514,6 +521,7 @@ switch (_typeofUnit) do
 		_unit additem _morphine;
 		_unit additem _epinephrine;
 		_unit additem _tourniquet;
+ 	 	_unit additem _mapflashlight;
 
 		_unit addmagazines [_grenade,2];
 		_unit addmagazines [_smokegrenade,2];
@@ -545,6 +553,7 @@ switch (_typeofUnit) do
 		_unit additem _morphine;
 		_unit additem _epinephrine;
 		_unit additem _tourniquet;
+ 	 	_unit additem _mapflashlight;
 		
 		_unit addmagazines [_grenade,2];
 		_unit addmagazines [_smokegrenade,2];
@@ -578,6 +587,7 @@ switch (_typeofUnit) do
 		_unit additem _morphine;
 		_unit additem _epinephrine;
 		_unit additem _tourniquet;
+ 	 	_unit additem _mapflashlight;
 		
 		_unit additem _cabletie;
 		_unit additem _maptools;
@@ -635,6 +645,7 @@ switch (_typeofUnit) do
 		_unit additem _morphine;
 		_unit additem _epinephrine;
 		_unit additem _tourniquet;
+ 	 	_unit additem _mapflashlight;
 		
 		_unit additem _cabletie;
 		_unit additem _maptools;
@@ -678,6 +689,7 @@ switch (_typeofUnit) do
 		_unit additem _morphine;
 		_unit additem _epinephrine;
 		_unit additem _tourniquet;
+ 	 	_unit additem _mapflashlight;
 		
 		_unit additem _cabletie;
 		_unit additem _maptools;
@@ -736,6 +748,7 @@ switch (_typeofUnit) do
 		_unit additem _morphine;
 		_unit additem _epinephrine;
 		_unit additem _tourniquet;
+ 	 	_unit additem _mapflashlight;
 		
 		_unit additem _cabletie;
 		_unit additem _maptools;
@@ -783,6 +796,7 @@ switch (_typeofUnit) do
 		_unit additem _morphine;
 		_unit additem _epinephrine;
 		_unit additem _tourniquet;
+ 	 	_unit additem _mapflashlight;
 		
 		_unit additem _cabletie;
 		_unit additem _maptools;
@@ -837,6 +851,7 @@ switch (_typeofUnit) do
 		_unit additem _morphine;
 		_unit additem _epinephrine;
 		_unit additem _tourniquet;
+ 	 	_unit additem _mapflashlight;
 		
 		_unit additem _cabletie;
 		_unit additem _maptools;
@@ -890,6 +905,7 @@ switch (_typeofUnit) do
 		_unit additem _morphine;
 		_unit additem _epinephrine;
 		_unit additem _tourniquet;
+ 	 	_unit additem _mapflashlight;
 		
 		_unit additem _cabletie;
 		_unit additem _maptools;
@@ -961,6 +977,7 @@ switch (_typeofUnit) do
 		_unit additem _morphine;
 		_unit additem _epinephrine;
 		_unit additem _tourniquet;
+ 	 	_unit additem _mapflashlight;
 		
 		_unit additem _cabletie;
 		_unit additem _maptools;
@@ -1006,6 +1023,7 @@ switch (_typeofUnit) do
 		_unit additem _morphine;
 		_unit additem _epinephrine;
 		_unit additem _tourniquet;
+ 	 	_unit additem _mapflashlight;
 		
 		_unit additem _cabletie;
 		_unit additem _maptools;
@@ -1055,6 +1073,7 @@ switch (_typeofUnit) do
 		_unit additem _morphine;
 		_unit additem _epinephrine;
 		_unit additem _tourniquet;
+ 	 	_unit additem _mapflashlight;
 
 		_unit additem _maptools;
 		
@@ -1091,6 +1110,7 @@ switch (_typeofUnit) do
 		_unit additem _morphine;
 		_unit additem _epinephrine;
 		_unit additem _tourniquet;
+ 	 	_unit additem _mapflashlight;
 
 		_unit additem _maptools;
 		
@@ -1134,6 +1154,7 @@ switch (_typeofUnit) do
 		_unit additem _morphine;
 		_unit additem _epinephrine;
 		_unit additem _tourniquet;
+ 	 	_unit additem _mapflashlight;
 
 		_unit additem _maptools;
 		
@@ -1176,6 +1197,7 @@ switch (_typeofUnit) do
 		_unit additem _morphine;
 		_unit additem _epinephrine;
 		_unit additem _tourniquet;
+ 	 	_unit additem _mapflashlight;
 
 		_unit additem _maptools;
 		
@@ -1217,6 +1239,7 @@ switch (_typeofUnit) do
 		_unit additem _morphine;
 		_unit additem _epinephrine;
 		_unit additem _tourniquet;
+ 	 	_unit additem _mapflashlight;
 
 		_unit additem _maptools;
 		
@@ -1254,6 +1277,7 @@ switch (_typeofUnit) do
 		_unit additem _morphine;
 		_unit additem _epinephrine;
 		_unit additem _tourniquet;
+ 	 	_unit additem _mapflashlight;
 
 		_unit additem _maptools;
 		
@@ -1287,6 +1311,7 @@ switch (_typeofUnit) do
 		_unit additem _morphine;
 		_unit additem _epinephrine;
 		_unit additem _tourniquet;
+ 	 	_unit additem _mapflashlight;
 
 		_unit additem _maptools;
 		
@@ -1320,6 +1345,7 @@ switch (_typeofUnit) do
 		_unit additem _morphine;
 		_unit additem _epinephrine;
 		_unit additem _tourniquet;
+ 	 	_unit additem _mapflashlight;
 
 		_unit additem _maptools;
 		_unit additem _microDAGR;

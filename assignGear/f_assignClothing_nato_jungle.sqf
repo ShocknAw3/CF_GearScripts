@@ -36,6 +36,7 @@ _vestRegFTLJungle = "rhsusf_spc_teamleader";
 _vestRegARJungle = "rhsusf_spc_mg";
 _vestRegJungle = "rhsusf_spc_rifleman";
 _vestRegMedicJungle = "rhsusf_spc_corpsman";
+_vestLightJungle = "rhsusf_mbav_light";
 
 // Vests German
 _vestRegSQLGERJungle = "pbw_splitter_grpfhr";
@@ -66,7 +67,6 @@ _vestPilotJungle = "rhsusf_spc";
 _vestCrewGERJungle = "pbw_splitter_zivil";
 _vestPilotGERJungle = "pbw_splitter_zivil";
 
-
 // Uniforms
 _uniformRegJungle = "rhs_uniform_FROG01_wd";
 _uniformSFJungle = "rhs_uniform_FROG01_wd";
@@ -79,7 +79,6 @@ _uniformRegGerJungle = "PBW_Uniform4k_fleck";
 _uniformSFGerJungle = "PBW_Uniform4k_fleck";
 _uniformCrewGerJungle = "PBW_Uniform4k_fleck";
 _uniformPilotGerJungle = "PBW_Uniform4k_fleck";
-
 
 // Accessories
 _scarfSFJungle = "rhsusf_shemagh2_grn";
@@ -333,7 +332,7 @@ switch (_typeofUnit) do
 	{
 		_unit addBackpack _BackpackMATJungle;
 		_unit addHeadgear _helmetRegJungle;
-		_unit addVest _vestRegJungle;
+		_unit addVest _vestLightJungle;
 		_unit addUniform _uniformRegJungle;
 	};
 	
@@ -342,15 +341,16 @@ switch (_typeofUnit) do
 	{
 		_unit addBackpack _BackpackMATJungle;
 		_unit addHeadgear _helmetRegJungle;
-		_unit addVest _vestRegJungle;
+		_unit addVest _vestLightJungle;
 		_unit addUniform _uniformRegJungle;
 	};
+	
 	// LOADOUT: AT Heavy Gunner
 	case "heavyatgunner":
 	{
 		_unit addBackpack _BackpackMATJungle;
 		_unit addHeadgear _helmetRegJungle;
-		_unit addVest _vestRegJungle;
+		_unit addVest _vestLightJungle;
 		_unit addUniform _uniformRegJungle;
 	};
 	
@@ -359,7 +359,7 @@ switch (_typeofUnit) do
 	{
 		_unit addBackpack _BackpackMATJungle;
 		_unit addHeadgear _helmetRegJungle;
-		_unit addVest _vestRegJungle;
+		_unit addVest _vestLightJungle;
 		_unit addUniform _uniformRegJungle;
 	};
 	// LOADOUT: AT Medium Gunner

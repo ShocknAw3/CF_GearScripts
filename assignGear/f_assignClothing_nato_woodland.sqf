@@ -23,6 +23,7 @@ _helmetSFWoodland = "rhsusf_opscore_fg_pelt";
 _helmetSNWoodland = "rhsusf_opscore_fg_pelt";
 _helmetCrewWoodland = "rhsusf_cvc_green_helmet";
 _helmetPilotWoodland = "rhsusf_hgu56p_visor";
+
 // Helmets German
 _helmetRegGerWoodland = "PBW_Helm2_fleck_H";
 _helmetRegLeadGerWoodland = "PBW_Helm2_fleck_H";
@@ -35,6 +36,7 @@ _vestRegFTLWoodland = "rhsusf_spc_teamleader";
 _vestRegARWoodland = "rhsusf_spc_mg";
 _vestRegWoodland = "rhsusf_spc_rifleman";
 _vestRegMedicWoodland = "rhsusf_spc_corpsman";
+_vestLightWoodland = "rhsusf_mbav_light";
 
 // Vests German
 _vestRegSQLGERWoodland = "pbw_splitter_grpfhr";
@@ -49,12 +51,14 @@ _vestSFARWoodland = "rhsusf_spc_mg";
 _vestSFWoodland = "rhsusf_spc_rifleman";
 _vestSFMedicWoodland = "rhsusf_spc_corpsman";
 _vestSNWoodland = "rhsusf_spc_marksman";
+
 // Vests SF German
 _vestSFLeadGerWoodland = "pbw_splitter_grpfhr";
 _vestSFARGerWoodland = "pbw_splitter_mg";
 _vestSFGerWoodland = "pbw_splitter_schtz";
 _vestSFMedicGerWoodland = "pbw_splitter_sani";
 _vestSNGerWoodland = "pbw_koppel_schtz";
+
 // Vests Pilot&Crews
 _vestCrewWoodland = "rhsusf_spcs_ocp";
 _vestPilotWoodland = "rhsusf_spcs_ocp";
@@ -75,6 +79,7 @@ _uniformRegGerWoodland = "PBW_Uniform4k_fleck";
 _uniformSFGerWoodland = "PBW_Uniform4k_fleck";
 _uniformCrewGerWoodland = "PBW_Uniform4k_fleck";
 _uniformPilotGerWoodland = "PBW_Uniform4k_fleck";
+
 // Accessories
 _scarfSFWoodland = "rhsusf_shemagh2_grn";
 
@@ -554,21 +559,21 @@ switch (_typeofUnit) do
 		_unit addUniform _uniformPilotGerWoodland;
 	};
 
-
 		// LOADOUT: AA Heavy Gunner
 	case "heavyaagunner":
 	{
 		_unit addBackpack _BackpackSFATWoodland;
 		_unit addHeadgear _helmetRegWoodland;
-		_unit addVest _vestRegWoodland;
+		_unit addVest _vestLightWoodland;
 		_unit addUniform _uniformRegWoodland;
 	};
+	
 	// LOADOUT: AA Heavy SPOTTER
 	case "heavyaaspotter":
 	{
 		_unit addBackpack _BackpackSFATWoodland;
 		_unit addHeadgear _helmetRegWoodland;
-		_unit addVest _vestRegWoodland;
+		_unit addVest _vestLightWoodland;
 		_unit addUniform _uniformRegWoodland;
 	};
 
@@ -577,7 +582,7 @@ switch (_typeofUnit) do
 	{
 		_unit addBackpack _BackpackSFATWoodland;
 		_unit addHeadgear _helmetRegWoodland;
-		_unit addVest _vestRegWoodland;
+		_unit addVest _vestLightWoodland;
 		_unit addUniform _uniformRegWoodland;
 	};
 	// LOADOUT: AT Heavy SPOTTER
@@ -585,7 +590,7 @@ switch (_typeofUnit) do
 	{
 		_unit addBackpack _BackpackSFATWoodland;
 		_unit addHeadgear _helmetRegWoodland;
-		_unit addVest _vestRegWoodland;
+		_unit addVest _vestLightWoodland;
 		_unit addUniform _uniformRegWoodland;
 	};
 			// LOADOUT: AT Medium Gunner

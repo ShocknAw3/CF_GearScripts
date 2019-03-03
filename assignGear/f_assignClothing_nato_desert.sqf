@@ -36,6 +36,7 @@ _vestRegFTLDesert = "rhsusf_iotv_ocp_Teamleader";
 _vestRegARDesert = "rhsusf_iotv_ocp_SAW";
 _vestRegDesert = "rhsusf_iotv_ocp_Rifleman";
 _vestRegMedicDesert = "rhsusf_iotv_ocp_Medic";
+_vestLightDesert = "rhsusf_mbav_light";
 
 // Vests German
 _vestRegSQLGERDesert = "rhsusf_spcs_ocp_rifleman_alt";
@@ -331,7 +332,7 @@ switch (_typeofUnit) do
 	{
 		_unit addBackpack _BackpackSFATDesert;
 		_unit addHeadgear _helmetRegDesert;
-		_unit addVest _vestRegDesert;
+		_unit addVest _vestLightDesert;
 		_unit addUniform _uniformRegDesert;
 	};
 		
@@ -340,7 +341,7 @@ switch (_typeofUnit) do
 	{
 		_unit addBackpack _BackpackSFATDesert;
 		_unit addHeadgear _helmetRegDesert;
-		_unit addVest _vestRegDesert;
+		_unit addVest _vestLightDesert;
 		_unit addUniform _uniformRegDesert;
 	};
 			
@@ -349,7 +350,7 @@ switch (_typeofUnit) do
 	{
 		_unit addBackpack _BackpackSFATDesert;
 		_unit addHeadgear _helmetRegDesert;
-		_unit addVest _vestRegDesert;
+		_unit addVest _vestLightDesert;
 		_unit addUniform _uniformRegDesert;
 	};
 		
@@ -358,7 +359,7 @@ switch (_typeofUnit) do
 	{
 		_unit addBackpack _BackpackSFATDesert;
 		_unit addHeadgear _helmetRegDesert;
-		_unit addVest _vestRegDesert;
+		_unit addVest _vestLightDesert;
 		_unit addUniform _uniformRegDesert;
 	};
 			
