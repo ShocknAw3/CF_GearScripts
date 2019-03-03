@@ -63,8 +63,8 @@ _vestCrewDesert = "rhsusf_spcs_ocp";
 _vestPilotDesert = "rhsusf_spcs_ocp";
 
 // Vests Pilot&Crews German
-_vestCrewGERDesert = "pbw_splitter_zivil";
-_vestPilotGERDesert = "pbw_splitter_zivil";
+_vestCrewGERDesert = "rhsusf_spcs_ocp_rifleman_alt";
+_vestPilotGERDesert = "rhsusf_spcs_ocp_rifleman_alt";
 
 // Uniforms
 _uniformRegDesert = "rhs_uniform_cu_ocp";
@@ -326,78 +326,6 @@ switch (_typeofUnit) do
 		_unit addUniform _uniformPilotDesert;
 	};
 	
-// LOADOUT: SQUAD LEAD
-	case "sqlger":
-	{
-		_unit addBackpack _BackpackRegDesert;
-		_unit addHeadgear _helmetRegLeadDesert;
-		_unit addVest _vestRegSQLDesert;
-		_unit addUniform _uniformRegDesert;
-	};
-		
-// LOADOUT: MEDIC
-	case "meger":
-	{
-		_unit addBackpack _backpackRegDesert;
-		_unit addHeadgear _helmetRegDesert;
-		_unit addVest _vestRegMedicDesert;
-		_unit addUniform _uniformRegDesert;
-	};
-		
-// LOADOUT: RADIO OPERATOR
-	case "roger":
-	{
-		_unit addBackpack _BackpackRODesert;
-		_unit addHeadgear _helmetRegLeadDesert;
-		_unit addVest _vestRegDesert;
-		_unit addUniform _uniformRegDesert;
-	};
-		
-// LOADOUT: DESIGNATED MARKSMAN
-	case "dmger":
-	{
-		_unit addBackpack _backpackRegDesert;
-		_unit addHeadgear _helmetRegDesert;
-		_unit addVest _vestRegDesert;
-		_unit addUniform _uniformRegDesert;
-	};
-		
-// LOADOUT: FIRETEAM LEAD
-	case "ftlger":
-	{
-		_unit addBackpack _BackpackRegDesert;
-		_unit addHeadgear _helmetRegLeadDesert;
-		_unit addVest _vestRegFTLDesert;
-		_unit addUniform _uniformRegDesert;
-	};
-		
-// LOADOUT: AUTOMATIC RIFLEMAN
-	case "arger":
-	{
-		_unit addBackpack _BackpackRegDesert;
-		_unit addHeadgear _helmetRegDesert;
-		_unit addVest _vestRegARDesert;
-		_unit addUniform _uniformRegDesert;
-	};
-		
-// LOADOUT: ASSISTANT AUTOMATIC RIFLEMAN
-	case "aarger":
-	{
-		_unit addBackpack _BackpackRegDesert;
-		_unit addHeadgear _helmetRegDesert;
-		_unit addVest _vestRegDesert;
-		_unit addUniform _uniformRegDesert;
-	};
-
-// LOADOUT: RIFLEMAN (AT)
-	case "ratger":
-	{
-		_unit addBackpack _BackpackRegDesert;
-		_unit addHeadgear _helmetRegDesert;
-		_unit addVest _vestRegDesert;
-		_unit addUniform _uniformRegDesert;
-	};
-			
 // LOADOUT: AA Heavy Gunner
 	case "heavyaagunner":
 	{
@@ -451,19 +379,19 @@ switch (_typeofUnit) do
 		_unit addVest _vestRegDesert;
 		_unit addUniform _uniformRegDesert;
 	};
-			// LOADOUT: SQUAD LEAD
+// LOADOUT: SQUAD LEAD
 	case "sqlger":
 	{
 		_unit addBackpack _BackpackRegGerDesert;
 		_unit addHeadgear _helmetRegLeadGerDesert;
 		_unit addVest _vestRegSQLGERDesert;
 		_unit addUniform _uniformRegGerDesert;
-		};
+	};
 		
 // LOADOUT: MEDIC
 	case "meger":
-	{
-		_unit addBackpack _BackpackRegGerDesert;
+	{	
+	    _unit addBackpack _BackpackRegGerDesert;
 		_unit addHeadgear _helmetRegGerDesert;
 		_unit addVest _vestRegMedicGERDesert;
 		_unit addUniform _uniformRegGerDesert;
@@ -531,7 +459,7 @@ switch (_typeofUnit) do
 		_unit addVest _vestSFLeadGerDesert;
 		_unit addUniform _uniformSFGerDesert;
 		_unit addGoggles _scarfSFDesert;
-		};
+	};
 		
 // LOADOUT: SF AUTOMATIC RIFLEMAN
 	case "sfarger":
@@ -541,7 +469,7 @@ switch (_typeofUnit) do
 		_unit addVest _vestSFARGerDesert;
 		_unit addUniform _uniformSFGerDesert;
 		_unit addGoggles _scarfSFDesert;
-		};
+	};
 		
 // LOADOUT: SF RADIO OPERATOR
 	case "sfroger":
@@ -561,7 +489,7 @@ switch (_typeofUnit) do
 		_unit addVest _vestSFGerDesert;
 		_unit addUniform _uniformSFGerDesert;
 		_unit addGoggles _scarfSFDesert;
-		};
+	};
 		
 // LOADOUT: SF MARKSMAN
 	case "sfdmger":
@@ -571,7 +499,7 @@ switch (_typeofUnit) do
 		_unit addVest _vestSFGerDesert;
 		_unit addUniform _uniformSFGerDesert;
 		_unit addGoggles _scarfSFDesert;
-		};
+	};
 		
 //LOADOOUT: SF SABOTEUR
 	case "sfsbger":
@@ -581,7 +509,7 @@ switch (_typeofUnit) do
 		_unit addVest _vestSFGerDesert;
 		_unit addUniform _uniformSFGerDesert;
 		_unit addGoggles _scarfSFDesert;
-		};
+	};
 	
 // LOADOUT: SF MEDIC
 	case "sfmeger":
@@ -591,7 +519,7 @@ switch (_typeofUnit) do
 		_unit addVest _vestSFMedicGerDesert;
 		_unit addUniform _uniformSFGerDesert;
 		_unit addGoggles _scarfSFDesert;
-		};
+	};
 			// LOADOUT: SNIPER
 	case "sniperger":
 	{
