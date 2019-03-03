@@ -82,7 +82,7 @@ if (f_var_debugMode == 1) then
 
 // ====================================================================================
 _SATerrains = ["stratis", "altis", "tembelan", "malden", "isladuala3", "pja310"];
-_DTerrains = ["bozcaada", "zargabad", "takistan"];
+_DTerrains = ["bozcaada", "zargabad", "takistan","tem_anizay"];
 _WDTerrains = ["ruha", "panthera3", "chernarus", "wl_rosche"];
 _JTerrains = ["tanoa", "lingor3", "abramia", "prei_khmaoch_luong"];
 
