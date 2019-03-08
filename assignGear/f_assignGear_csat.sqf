@@ -40,10 +40,10 @@ _mapflashlight = "ACE_Flashlight_XL50";
 // WEAPON SELECTION
 
 // Regular AK74 Variants & Ammo
-_RifleAK74 = "rhs_weap_ak74m";
-_RifleAK74GL = "rhs_weap_ak74m_gp25";
+_RifleAK74 = "rhs_weap_ak74n_2";
+_RifleAK74GL = "rhs_weap_ak74n_2_gp25";
 _RiflePilot = "rhs_weap_aks74u";
-_MagazineAK74 = "rhs_30Rnd_545x39_AK";
+_MagazineAK74 = "rhs_30Rnd_545x39_7N6M_plum_AK";
 
 // SF AK74 Variants & Ammo
 _rifleRecon = "rhs_weap_ak74m";

@@ -5,6 +5,7 @@ _backpackAARWoodland = "B_TacticalPack_rgr";
 _backpackMATWoodland = "B_TacticalPack_rgr";
 _backpackROWoodland = "B_TacticalPack_rgr";
 _backpackSFWoodland = "rhs_sidor";
+_backpackSFARWoodland = "B_TacticalPack_rgr";
 _backpackSFROWoodland = "B_TacticalPack_rgr";
 _backpackSNWoodland = "rhs_sidor";
 _backpackCrewWoodland = "rhs_sidor";
@@ -143,7 +144,7 @@ switch (_typeofUnit) do
 // LOADOUT: SF AUTOMATIC RIFLEMAN
 	case "iffar":
 	{
-		_unit addBackpack _backpackSFWoodland;
+		_unit addBackpack _backpackSFARWoodland;
 		_unit addVest _vestSFWoodland;
 		
 		#include "f_randomClothes_aaf.sqf";

@@ -5,6 +5,7 @@ _backpackAARSemiArid = "B_TacticalPack_rgr";
 _backpackMATSemiArid = "B_TacticalPack_rgr";
 _backpackROSemiArid = "B_TacticalPack_rgr";
 _backpackSFSemiArid = "rhs_sidor";
+_backpackSFARSemiArid = "B_TacticalPack_rgr";
 _backpackSFROSemiArid = "B_TacticalPack_rgr";
 _backpackSNSemiArid = "rhs_sidor";
 _backpackCrewSemiArid = "rhs_sidor";
@@ -18,6 +19,7 @@ _vestSPSemiArid = "LOP_V_CarrierLite_OLV";
 _vestCrewSemiArid = "V_BandollierB_oli";
 _vestPilotSemiArid = "V_BandollierB_oli";
 
+// Uniforms & headgear arrays
 // Lists from which to select uniform/headgear
 _listUniforms = [
 				"U_B_CombatUniform_mcam_tshirt", "U_I_G_resistanceLeader_F", "LOP_U_PMC_Fatigue_01", "LOP_U_PMC_Fatigue_03", "LOP_U_PMC_Fatigue_04", "LOP_U_IRA_Fatigue_HTR_DPM_J", "U_I_G_Story_Protagonist_F", "U_BG_Guerrilla_6_1",
@@ -142,7 +144,7 @@ switch (_typeofUnit) do
 // LOADOUT: SF AUTOMATIC RIFLEMAN
 	case "iffar":
 	{
-		_unit addBackpack _backpackSFSemiArid;
+		_unit addBackpack _backpackSFARSemiArid;
 		_unit addVest _vestSFSemiArid;
 		
 		#include "f_randomClothes_aaf.sqf";
